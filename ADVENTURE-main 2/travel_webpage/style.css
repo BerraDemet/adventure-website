@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text', serif;
+
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background: url(img/image.jpeg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.header-content {
+    margin-bottom: 170px;
+    font-weight: bolder;
+}
+ .header-content h2{
+    margin-bottom: 2rem;
+}
+.header-content h1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+.header-content a {
+    font-size: 15px;
+    text-decoration: none;
+    padding-top: 1em;
+}
+.line {
+    max-width: 230px;
+    max-height: 4px;
+    background: #fc036b;
+    margin-left: 310px;
+    border-radius: 5px;
+}
+.navbar  a {
+    color: white ;
+    transition: font-size 0.3s ease; 
+}
+.navbar a:hover {
+    
+    font-size: 1.5rem;
+}
+header  a p {
+    color: black ;
+    
+}
+header a p:hover {
+    color: #fc036b;
+}
+#home {
+    background-color:rgb(17, 35, 72);
+    border-radius: 1rem;
+}
+.navbar {
+    background-color: transparent !important;
+    transition: background-color 0.3s ease;
+  }
+
+  .navbar-scrolled {
+    background-color: rgb(16, 34, 70 ) !important;
+  }
+  #register{
+    background-color:rgb(17, 35, 72);
+    border-radius: 0.5rem;
+    transition: transform 0.3s ease;
+}
+#register:hover{
+    transform: scale(1.1);
+}
+.card img {
+    transition: transform 0.3s ease;
+}
+.card img:hover {
+    transform: scale(1.1);
+}
+
+.col-lg-4 img{
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.col-lg-4 img:hover{
+    margin: 10px;
+    transform: scale(1.1);
+}
+.line2 {
+    max-width: 100px;
+    height: 4px;
+    background: #fc036b;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.contact {
+        border: 1px solid #ddd; 
+        padding: 10px; 
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+@media (max-width: 576px) {
+    .contact h2 {
+        font-size: 1.5rem; 
+    }
+}
